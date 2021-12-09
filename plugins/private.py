@@ -26,7 +26,7 @@ from helpers.utils import delete, update, is_admin
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaDocument
 
 
-HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**, \n\nI'm **Video Player Bot**. \nI Can Stream Lives, YouTube Videos & Telegram Video Files On Video Chat Of Telegram Channels & Groups 😉! \n\n**Made With ❤️ By @ImSafone!** 👑"
+HOME_TEXT = "👋🏻 **Hi [{}](tg://user?id={})**, \n\nI'm **Video Player Bot**. \nI Can Stream Lives, YouTube Videos & Telegram Video Files On Video Chat Of Telegram Channels & Groups 😉! \n\n**Made With ❤️ By @FuckTheRulesWild!** 👑"
 HELP_TEXT = """
 💡 --**Setting Up**--:
 
@@ -60,7 +60,7 @@ HELP_TEXT = """
 \u2022 `/getlogs` - get the ffmpeg & bot logs
 
 © **Powered By** : 
-**@AsmSafone | @AsmSupport** 👑
+**@letsings | @wildentourageni** 👑
 """
 
 admin_filter=filters.create(is_admin) 
@@ -72,13 +72,13 @@ async def start(client, message):
                 InlineKeyboardButton("SEARCH VIDEOS", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
-            ],
-            [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/letsings"),
                 
-          
+            ],
+            
+            
+            
+     
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
             ]
