@@ -95,13 +95,13 @@ async def show_help(client, message):
                 InlineKeyboardButton("SEARCH VIDEOS", switch_inline_query_current_chat=""),
             ],
             [
-                InlineKeyboardButton("CHANNEL", url="https://t.me/AsmSafone"),
-                InlineKeyboardButton("SUPPORT", url="https://t.me/AsmSupport"),
+                InlineKeyboardButton("CHANNEL", url="https://t.me/letsings"),
+                InlineKeyboardButton("SUPPORT", url="https://t.me/wildentourageni"),
             ],
-            [
-                InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
-            ],
+            
+                
+               
+           
             [
                 InlineKeyboardButton("BACK HOME", callback_data="home"),
                 InlineKeyboardButton("CLOSE MENU", callback_data="close"),
