@@ -77,8 +77,8 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("MORE BOTS", url="https://t.me/AsmSafone/173"),
-                InlineKeyboardButton("SOURCE CODE", url="https://github.com/S1-BOTS/VideoPlayerBot/tree/alpha"),
-            ],
+                
+          
             [
                 InlineKeyboardButton("❔ HOW TO USE ❔", callback_data="help"),
             ]
